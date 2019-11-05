@@ -1,0 +1,171 @@
+[
+  {
+    "type_name": "LIQUID_LEVEL",
+    "fcode": 3,
+    "reg": 4,
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "liquidLevel",
+        "value": "3#4",
+        "unit": 10
+      }
+    ]
+  },
+
+  {
+    "type_name": "SOIL_COMBO",
+    "fcode": 3,
+    "reg": 0,
+    "len": 4,
+    "rspvalue": [
+      {
+        "stype": "soilTemp",
+        "value": "3#4",
+        "unit": 10
+      },
+      {
+        "stype": "soilMoist",
+        "value": "5#6",
+        "unit": 10
+      },
+      {
+        "stype": "soilTDS",
+        "value": "7#8",
+        "unit": 1
+      },
+      {
+        "stype": "soilEC",
+        "value": "9#10",
+        "unit": 1
+      }
+    ]
+  },
+
+  {
+    "type_name": "TEMPHUMI_HK",
+    "fcode": 3,
+    "reg": 0,
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "temp",
+        "value": "3#4",
+        "unit": 10
+      },
+      {
+        "stype": "humi",
+        "value": "5#6",
+        "unit": 10
+      }
+    ]
+  },
+
+  {
+    "type_name": "ILLU_HK",
+    "fcode": 3,
+    "reg": 0,
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "illu",
+        "value": "3#4#5#6",
+        "unit": 1
+      }
+    ]
+  },
+
+  {
+    "type_name": "CO2_HK",
+    "fcode": 3,
+    "reg": 0,
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "co2",
+        "value": "3#4",
+        "unit": 1
+      }
+    ]
+  },
+
+  {
+    "type_name": "DO_ZN",
+    "fcode": 4,
+    "reg": 1,
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "do_zn",
+        "value": "3#4",
+        "unit": 100
+      }
+    ]
+  },
+
+  {
+    "type_name": "PH_ZN",
+    "fcode": 4,
+    "reg": 1,
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "ph_zn",
+        "value": "3#4",
+        "unit": 100
+      },
+      {
+        "stype": "temp_zn",
+        "value": "5#6",
+        "unit": 100
+      }
+    ]
+  },
+
+  {
+    "type_name": "DO_WS",
+    "fcode": 3,
+    "reg": 0,
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "temp_ws",
+        "value": "3#4",
+        "unit": 10
+      },
+      {
+        "stype": "do_ws",
+        "value": "5#6",
+        "unit": 10
+      }
+    ]
+  },
+
+  {
+    "type_name": "PH_WS",
+    "fcode": 3,
+    "reg": 1,
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "ph_ws",
+        "value": "3#4",
+        "unit": 100
+      }
+    ]
+  },
+
+  {
+    "type_name": "DMA_STA",
+    "fcode": 1,
+    "reg": 0,
+    "len": 8,
+    "rspvalue": [
+      {
+        "stype": "relay_sta_dma",
+        "value": "3",
+        "unit": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+spring:
+  influx:
+    url: "http://192.168.100.248:8086"
+    password: "root"
+    user: "1604021026"
+    database: "iot"
